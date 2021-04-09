@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pamuth auth page - made by timbios</title>
+	<link rel="stylesheet" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+	<div class="container-xxl wrapper">
+		<div class="row">
+			<div class="flexcenter flexcenter-left col-md-12 col-lg-5 col-xl-6">
+				<div class="about">
+					<h1 class="about__title">Pamuth<span class="about__dot">.</span></h1>
+					<p>Sign in or create account</p>
+				</div>
+			</div>
+			<div class="flexcenter flexcenter-right col-md-12 col-lg-7 col-xl-6">
+				<div class="auth">
+					<div class="login">
+						<h1 class="auth__title">Sign In</h1>
+						<p class="auth__text">Before starting, please log in.</p>
+						<div class="form">
+							<div class="form__group">
+								<input type="email" placeholder="Email" class="form__input" tabindex="1" required>
+								<label for="email" class="form__label">E-mail</label>
+							</div>
+							<div class="form__group field">
+								<input type="password" placeholder="Password" class="form__input" tabindex="2" required>
+								<label for="password" class="form__label">Password</label>
+							</div>
+							<div class="form__control">
+								<div class="checkbox">
+									<input type="checkbox" id="scales" name="scales">
+									<label for="scales">Keep me signed in</label>
+								</div>
+								<a href="#" onclick="openRes();">Forgot password?</a>
+							</div>
+							<button class="btn btn-primary">Sign In</button>
+							<p class="form__link">You can also <a href="#" onclick="openReg();">create an account</a>.</p>
+						</div>
+					</div>
+					<div class="register">
+						<h1 class="auth__title">Sign up</h1>
+						<div class="form">
+							<div class="form__group">
+								<input type="firstname" placeholder="firstname" class="form__input" tabindex="1" required>
+								<label for="firstname" class="form__label">Firstname</label>
+							</div>
+							<div class="form__group">
+								<input type="lastname" placeholder="lastname" class="form__input" tabindex="2" required>
+								<label for="lastname" class="form__label">Lastname</label>
+							</div>
+							<div class="form__group">
+								<input type="email" placeholder="email" class="form__input" tabindex="2" required>
+								<label for="email" class="form__label">Email</label>
+							</div>
+							<div class="form__group">
+								<input type="password" placeholder="Password" class="form__input" tabindex="2" required>
+								<label for="password" class="form__label">Password</label>
+							</div>
+							<div class="form__control">
+								<div class="checkbox">
+									<input type="checkbox" id="scales" name="scales">
+									<label for="scales">I accept privacy an policy</label>
+								</div>
+								<a href="#" onclick="openRes();">Forgot password?</a>
+							</div>
+							<button class="btn btn-primary">Sign In</button>
+							<p class="form__link">Backward to <a href="#" onclick="openLogin();">sign in</a>.</p>
+						</div>
+					</div>
+					<div class="restore">
+						<h1 class="auth__title">Restore</h1>
+						<p class="auth__text">Еnter your email to restore your account.</p>
+						<div class="form">
+							<div class="form__group">
+								<input type="email" placeholder="email" class="form__input" tabindex="2" required>
+								<label for="email" class="form__label">Email</label>
+							</div>
+							<button class="btn btn-primary">Sign In</button>
+							<p class="form__link">backward to <a href="#" onclick="openLogin();">sign in</a>.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
