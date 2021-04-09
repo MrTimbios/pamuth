@@ -53,7 +53,3 @@ a:hover {transition: all ease .2s; color: #AC5B82;}
 	.about {text-align: center;margin-left: 0;}
 	.about__text {display: none;}
 }
-@media screen and (max-width: 576px) {
-	.flexcenter-right {padding: 0;}
-	.auth {width: 100%;height: 100%;border-radius: 0;}
-}
